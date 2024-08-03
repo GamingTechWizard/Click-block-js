@@ -1,0 +1,31 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div-outside{
+    position: fixed;
+    background-color: rgb(254, 171, 171);
+    width: 100%;
+    height: 100vh; /* Make the height responsive */
+    overflow: hidden;
+    cursor: pointer;
+}
+#div-inside{
+    padding: 3%;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute; /* Positioning the block absolutely within the container */
+}
+#game_over {
+    display: none;
+    font-size: 24px;
+    color: red;
+}
+#restart {
+    display: none;
+    font-size: 24px;
+    color: rgb(22, 157, 181);
+}
